@@ -53,6 +53,10 @@ Utility Classes
     align-items: center;
 }
 
+.jcb {
+    justify-content: space-between;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -316,4 +320,44 @@ footer .bottomsection {
     margin-top: 30px;
     padding: 10px 0;
     background-color: #000;
+}
+
+.product-detail-page .product-detail {
+    padding: 30px 0;
+}
+
+.product-detail-page .navigation .breadcrumb {
+    /* display: flex; */
+    list-style: none;
+}
+
+
+.product-detail-page .navigation {
+    background-color: var(--lightGray);
+    padding: 10px 0;
+}
+
+.product-detail-page .navigation .breadcrumb li::after {
+    content: ">";
+}
+
+.product-detail-page .navigation .breadcrumb li:last-child:after {
+    content: "";
+}
+
+.product-detail-page .detail {
+    padding: 60px;
+}
+
+.product-detail-page .detail .price {
+    min-width: 200px;
+    text-align: right;
+}
+
+.product-detail-page .detail .detailheader {
+    margin-bottom: 30px;
+}
+
+.product-detail-page .detail .text {
+    margin-bottom: 30px;
 }
